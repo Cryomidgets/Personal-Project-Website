@@ -10,21 +10,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
   <body>
-    <body>
-      <!--Header-->
-      <header>
-        <!--Nav Bar-->
-        <nav>
-          <ul>
-            <div>
-              <li><a href="/Personal-Project-Website/index.html" class="li">Home</a></li>
-              <li><a href="/Personal-Project-Website/abttheauthor.html" class="li">About The Author</a></li>
-              <li><a href="/Personal-Project-Website/factgenerator;other.html" class="li">Fact Generator</a></li>
-              <li><a href="/Personal-Project-Website/references.html" class="li">References</a></li>
-            </div>
-          </ul>
-        </nav>
-      </header>
-      <!--Main Content-->
-      <div class="notnavbar"></div>
+    <!--Header-->
+    <header>
+      <!--Nav Bar-->
+      <nav>
+        <h1 id="logo">The Final Frontier</h1>
+        <ul>
+          <div>
+            <li><a href="/index.html" class="li">Home</a></li>
+            <li><a href="/abttheauthor.html" class="li">About The Author</a></li>
+            <li><a href="/factgenerator;other.html" class="li">Fact Generator</a></li>
+            <li><a href="/references.html" class="li">References</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <!--Main Content-->
+    <div class="notnavbar" id="factgenerator">
+      <div class="page-bg"></div>
+
+      <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+      </div>
+      <div id="container">
+        <h1>Random Fact Generator</h1>
+        <div id="scrollbar">
+          <p id="factOutput">The Fact will Appear Here</p>
+        </div>
+        <button id="btn">Generate a random fact!</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
   </body>
+</html>
