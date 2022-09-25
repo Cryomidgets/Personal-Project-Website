@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Space Ranger';
-    src: url(Fonts/space_ranger/spaceranger.ttf);
+    src: url(/Personal-Project-Website/Fonts/space_ranger/spaceranger.ttf);
 }
 
 @font-face {
     font-family: 'Abnes';
-    src: url(Fonts/abnes/abnes.ttf);
+    src: url(/Personal-Project-Website/Fonts/abnes/abnes.ttf);
 }
 
 @font-face {
     font-family: 'Nulshock';
-    src: url(Fonts/nulshock/nulshock\ bd.otf);
+    src: url(/Personal-Project-Website/Fonts/nulshock/nulshock\ bd.otf);
 }
 
 * {
@@ -20,7 +20,7 @@
 }
 
 html {
-    background-image: url("/Photos/circuit-board-seamless-pattern-background-vector-18170148.jpg");
+    background-image: url("/Personal-Project-Website/Photos/circuit-board-seamless-pattern-background-vector-18170148.jpg");
     background-repeat: repeat;
     background-size: 500px 500.5px;
     margin: 0;
