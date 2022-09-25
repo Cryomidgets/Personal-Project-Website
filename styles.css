@@ -90,7 +90,7 @@ header::after {
     text-align: center;
     box-sizing: border-box;
     font-size: 2em;
-    font-family: 'Abnes';
+    font-family: 'Abnes', 'Space Mono', monospace, sans-serif;
     height: max-content;
     width: max-content;
     margin: 0em 1em 0 1em;
