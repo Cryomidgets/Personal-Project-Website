@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Nulshock';
-    src: url(Fonts/nulshock/nulshock/bd.otf);
+    src: url(Fonts/nulshock/nulshock\ bd.otf);
 }
 
 * {
@@ -20,7 +20,7 @@
 }
 
 html {
-    background-image: url("/Personal-Project-Website/Photos/circuit-board-seamless-pattern-background-vector-18170148.jpg");
+    background-image: url("/Photos/circuit-board-seamless-pattern-background-vector-18170148.jpg");
     background-repeat: repeat;
     background-size: 500px 500.5px;
     margin: 0;
@@ -90,7 +90,7 @@ header::after {
     text-align: center;
     box-sizing: border-box;
     font-size: 2em;
-    font-family: 'Abnes', 'Space Mono', monospace, sans-serif;
+    font-family: 'Abnes';
     height: max-content;
     width: max-content;
     margin: 0em 1em 0 1em;
