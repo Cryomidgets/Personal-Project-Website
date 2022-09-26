@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Space Ranger';
-    src: url(/Personal-Project-Website/Fonts/space_ranger/spaceranger.ttf);
+    src: url(Fonts/space_ranger/spaceranger.ttf);
 }
 
 @font-face {
     font-family: 'Abnes';
-    src: url(/Personal-Project-Website/Fonts/abnes/abnes.ttf);
+    src: url(Fonts/abnes/abnes.ttf);
 }
 
 @font-face {
     font-family: 'Nulshock';
-    src: url(/Personal-Project-Website/Fonts/nulshock/nulshock\ bd.otf);
+    src: url(Fonts/nulshock/nulshock\ bd.otf);
 }
 
 * {
